@@ -87,6 +87,7 @@ button {
 }
 button img{
       width: 20px;
+      height: 20px;
 }
 button:hover{
       box-shadow: hsl(150, 100%, 66%) 0px 7px 29px 0px;
