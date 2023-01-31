@@ -1,0 +1,110 @@
+body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+      background-color: hsl(218, 23%, 16%);
+}
+
+.card {
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 400px;
+      height: 250px;
+      text-align: center;
+      border-radius: 1rem;
+      padding: 1rem;
+      background-color:  hsl(217, 19%, 24%);
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      margin: 2rem;
+}
+
+.card-title h6 {
+      top: -50px;
+      margin: 0 0 0.5rem 0;
+      overflow: hidden;
+      color: hsl(150, 100%, 66%);
+      font-weight: 800;
+      font-size: 0.75em;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+
+
+}
+
+
+.card p {
+      font-weight: 800;
+      font-size: 1.1em;
+      color: hsl(193, 38%, 86%);
+      margin: 0.5rem 0 0.8rem 0;
+}
+
+.card span {
+      align-items: center;
+      text-align: center;
+      overflow: hidden;
+      max-width: 100%;
+
+      color: hsl(193, 38%, 86%);
+
+}
+
+span img {
+      
+    
+      max-width: 100%;
+      height: 1rem;
+      transition: all 400ms;
+
+}
+span img:hover{
+      cursor: pointer;
+      scale: 1.2;
+
+}
+
+button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color: hsl(150, 100%, 66%);
+      height :3rem;
+      width: 2.5rem;
+      border-radius: 100%;
+      position: relative;
+      top: -55px;
+      transition: 400ms;
+     
+
+}
+button img{
+      width: 20px;
+}
+button:hover{
+      box-shadow: hsl(150, 100%, 66%) 0px 7px 29px 0px;
+      scale: 1.1;
+      cursor: pointer;
+
+
+}
+
+.fechado{
+      display: none;
+}
+#copy{
+      color: #fff;
+      font-weight:300;
+      font-size:0.7rem;
+      letter-spacing: 2px;
+      position: relative;
+      bottom: -10rem;
+
+}
